@@ -49,7 +49,7 @@
             "
           ></div>
         </div>
-        <div class="mx-auto py-32 sm:py-48 lg:py-56">
+        <div class="mx-auto py-10">
           <div class="text-center">
             <h1
               class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
@@ -63,28 +63,8 @@
             </p>
           </div>
           <!-- Translate -->
-          <div class="mt-20 lg:flex flex-row gap-5 w-full justify-center"> 
-            <!-- <div class="">
-              
-                          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">English <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                          </svg></button>
-                          <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-                              <li>
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Yoruba</a>
-                              </li>
-                              <li>
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hausa</a>
-                              </li>
-                              <li>
-                                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Igbo</a>
-                              </li>
-                            
-                            </ul>
-                          </div>
-
-            </div> -->
+          <div class="mt-5 flex flex-row gap-5 w-full justify-center items-center"> 
+            
             <div class="relative ">
               <select name="from-text" id="from-text" class="inline-flex justify-evenly gap-x-1.5 rounded-md bg-white px-3 py-2 m-3 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset hover:ring-gray-300 hover:bg-blue-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
                 <option value="English" selected>English</option>
@@ -95,7 +75,7 @@
             </div>
 
             <div id="transalte-icon">
-                <i class="fa-solid fa-arrows-rotate fa-2x m-auto"></i>
+              <i class="fa-solid fa-arrow-right-arrow-left mx-auto" style="color: #919aac;"></i>
             </div>
 
             <div class="relative">
@@ -107,57 +87,13 @@
               </select>
             </div>
 
-
-            <!-- <div>
-              
-              <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Yoruba <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-              </svg></button>
-              <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Igbo</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hausa</a>
-                  </li>
-                  <li>
-                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
-                  </li>
-                
-                </ul>
-              </div>
-
-          </div> -->
         </div>
-        <div
-          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-          aria-hidden="true"
-        >
-          <div
-            class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-            style="
-              clip-path: polygon(
-                74.1% 44.1%,
-                100% 61.6%,
-                97.5% 26.9%,
-                85.5% 0.1%,
-                80.7% 2%,
-                72.5% 32.5%,
-                60.2% 62.4%,
-                52.4% 68.1%,
-                47.5% 58.3%,
-                45.2% 34.5%,
-                27.5% 76.7%,
-                0.1% 64.9%,
-                17.9% 100%,
-                27.6% 76.8%,
-                76.1% 97.7%,
-                74.1% 44.1%
-              );
-            "
-          ></div>
-        </div>
+
+        <!-- translate-button -->
+          <div class="mx-auto text-center font-semibold text-white mt-2">
+            <button class="w-[10rem] rounded-lg p-2 bg-gradient-to-r from-[#ff80b5] to-[#9089fc] hover:bg-blue-50">Translate</button>
+          </div>
+        
       </div>
     </section>
 
@@ -165,29 +101,27 @@
     <section id="cards" class="container mx-auto">
       <div class="grid lg:grid-cols-2 items-center p-3 gap-10 mt-2 mb-5">
         <div
-          class="transition duration-300 ease-in-out hover:-translate-y-6 bg-gradient-to-r from-[#ff80b5] to-[#9089fc] rounded-lg p-[2px] mx-auto w-full h-[30rem]"
+          class="bg-gradient-to-r from-[#ff80b5] to-[#9089fc] rounded-lg p-[2px] w-full h-[22rem]"
         >
-          <label for="from-input">From</label>
+          <label for="from-input" class="p-4 text-xl font-semibold">From</label>
           <textarea
-            class="resize-none placeholder:italic font-bold placeholder:text-slate-400 block bg-white w-full h-[28rem] rounded-lg py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-lg"
+            class="resize-none placeholder:italic placeholder:text-slate-400 bg-white w-full h-[19.7rem] rounded-lg py-2 px-4 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-lg"
             placeholder="Enter Text..."
             name="text"
             id="from-input"
-          >
-          </textarea>
+          ></textarea>
         </div>
 
         <div
-          class="transition duration-300 ease-in-out hover:-translate-y-6 bg-gradient-to-r from-[#ff80b5] to-[#9089fc] rounded-lg p-[2px] mx-auto w-full h-[30rem]"
+          class="bg-gradient-to-r from-[#ff80b5] to-[#9089fc] rounded-lg p-[2px] mx-auto w-full h-[22rem]"
         >
-          <label for="to-input">To</label>
+          <label for="to-input" class="p-4 pb-8 text-xl font-semibold">To</label>
           <textarea
-            class="resize-none placeholder:italic font-bold placeholder:text-slate-400 block bg-white w-full h-[28rem] rounded-lg py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-lg"
-            placeholder="Enter Text..."
+            class="resize-none placeholder:italic font-bold placeholder:text-slate-400 block bg-white w-full h-[19.7rem] rounded-lg py-2 px-4 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-lg"
+            placeholder="Translation..."
             name="text"
-            id="from-input"
-          >
-          </textarea>
+            id="to-input"
+          ></textarea>
         </div>
       </div>
     </section>
